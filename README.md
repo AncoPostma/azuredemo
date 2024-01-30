@@ -1,0 +1,2 @@
+# azuredemo
+Azure training repository
