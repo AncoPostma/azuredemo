@@ -19,5 +19,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./main.bicep
-        parameters: 'storagePrefix=MZH-AP storageSKU=Standard_LRS'
+        parameters: 'storagePrefix=disk storageSKU=Standard_LRS'
         failOnStdErr: false
